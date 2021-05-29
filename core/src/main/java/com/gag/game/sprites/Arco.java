@@ -21,6 +21,7 @@ public class Arco extends Sprite {
         arcoTextura=new Texture("1.png");
         // arcoTextura=new TextureRegion(getTexture(),getRegionX(),getRegionY(),
         //        5,5);
+	//Textura del arco
         setTexture(arcoTextura);
         setRegion(new TextureRegion(arcoTextura,0,0,112,154));
         setPosition(-20,450);
